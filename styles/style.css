@@ -133,3 +133,102 @@ hr {
 }
 
 /*Tarjetas**/
+.information-cards h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cards {
+    width: 90%;
+    height: 220px;
+    margin: 0 auto;
+    
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 10px;
+}
+.card-one {
+    width: 100%;
+    border-radius: 8px;
+    border: 5px solid #000;
+    background-color: #f0f0f0;
+}
+.card-one i {
+    margin: 20px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-one h3{
+    font-size: 30px;
+    font-family: 'Monteserrat', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.card-one p{
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    padding: 10px 4px;
+}
+
+/**tarjeta  dos*/
+.card-two {
+    width: 100%;
+    border-radius: 8px;
+    border: 5px solid #000;
+    background-color: #f0f0f0;
+}
+.card-two i {
+    margin: 20px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-two h3{
+    font-size: 30px;
+    font-family: 'Monteserrat', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.card-two p{
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    padding: 10px 4px;
+}
+
+/*Tarjeta tres*/
+.card-three {
+    width: 100%;
+    border-radius: 8px;
+    border: 5px solid #000;
+    background-color: #f0f0f0;
+}
+.card-three i {
+    margin: 20px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-three h3{
+    font-size: 30px;
+    font-family: 'Monteserrat', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.card-three p{
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    text-align: center;
+    padding: 10px 4px;
+}
