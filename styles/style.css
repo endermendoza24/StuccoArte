@@ -59,25 +59,35 @@ ul {
 }
 hr {
     margin: 10px 0;
+    border-top: 3px double #000;
 }
 /*Showcase*/
-.showcase{
+.showcase {
     width: 100%;    
     height: 400px;
     background-color: #ffb900;
     padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
+    display: grid;
+    /* flex-direction: column; */
+    grid-template-columns:   1fr 1fr;
+   align-items: center;
+   justify-content: center;
     margin-bottom: 20px;
 }
-
+.showcase .texto h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+     font-weight: bold;
+}
+.shwocase .texto p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    opacity: .9;
+}
 .showcase .logo-banner {
-    width: 25%;
-    float: left;
-    clear: both;
-
+    width: 45%;
+    margin: auto 0;
+    
 }
 .btn{
     cursor: pointer;
@@ -88,9 +98,38 @@ hr {
     background-color: #323232;
     color: #fff;
     font-size: 18px;
-    border: 1px solid #fff;
+    border-radius: 4px;
     margin: 10px 0;
 }
 .btn:hover{
-    opacity: .8;
+    opacity: .9;
 }
+
+.contenedor-items{
+    width: 90%;
+    margin: 0 auto;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-items .imagen-contenida {
+    width: 80%;    
+    
+}
+
+.contenedor-items h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+.contenedor-items .texto-item1 p{
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    color: #000;
+    margin-bottom:15px ;
+}
+
+/*Tarjetas**/
