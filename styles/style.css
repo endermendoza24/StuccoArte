@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*para que los tamaños tomen en cuenta los bordes y el tamaño de la caja*/
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
