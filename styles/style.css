@@ -295,3 +295,29 @@ hr {
     font-family: 'Arimo', sans-serif;
 
 }
+/*GALERIA*/
+
+.proyectos {
+    width: 90%;
+    margin: 0 auto;
+}
+.proyectos h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+}
+.proyectos-galeria img{
+    width: 100%;
+    border-radius: 8px;
+}
+.proyectos-galeria {
+    
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+}
