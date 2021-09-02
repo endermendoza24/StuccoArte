@@ -80,7 +80,7 @@ hr {
      font-weight: bold;
 }
 .shwocase .texto p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Arimo', sans-serif;
     font-size: 22px;
     opacity: .9;
 }
@@ -114,11 +114,11 @@ hr {
     justify-content: center;
     align-items: center;
 }
-.contenedor-items .imagen-contenida {
-    width: 80%;    
-    
-}
 
+.contenedor-items img{
+    border-radius: 8px;
+    width: 80%;
+}
 .contenedor-items h2 {
     font-weight: bold;
     margin-bottom: 30px;
@@ -319,5 +319,54 @@ hr {
     display: grid;
     gap: 10px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+/*  FORMULARIO DE CONTACTO */
+.formulario-contacto {
+    width: 90%;
+    margin: 0 auto;
+}
+.formulario-contacto h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+.formulario {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.formulario h3, .formulario input {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    font-family: 'Arimo', sans-serif;
+}
+.formulario input {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 3px;
+    height: 45px;
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.formulario textarea{
+    width: 80%;
+    margin: 0 auto;
+    border-radius:3px ;
+    font-family: 'Arimo', sans-serif;
+    font-size: 15px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+.formulario a{
+    width: 10%;
+    text-align: center;
+    
+    margin: 20px auto;
+    
 }
