@@ -7,7 +7,7 @@
     <!--TIPOGRAFIA-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,18 +16,20 @@
 <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!--Estilos-->
     <link rel="stylesheet" href="styles/style.css">
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="img/jr-logo.ico" type="image/x-icon">
     <title>StuccoArte</title>
 </head>
 <body>
     <div class="container">
-        <div class="nav-main">
+        <div id="inicio" class="nav-main">
             <img src="img/logo3.png" class="nav-brand" alt="Logotipo">
             <ul class="nav-menu">
-                <li><a href="#">StuccoArte</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Nuestros proyectos</a></li>
-                <li><a href="#">Beneficios</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#inicio">StuccoArte</a></li>
+                <li><a href="#acerca">Nosotros</a></li>
+                <li><a href="#proyectos">Nuestros proyectos</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </div>
         <hr>
@@ -36,11 +38,11 @@
             <div class="texto">
                 <h1>StuccoArte</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum, ut.
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus suscipit dolor ullam dignissimos voluptate a asperiores consequatur dolorem nobis. Odio!
+             voluptate a asperiores consequatur dolorem nobis. Odio!
             </p>
             
-            <a href="#Contacto" class="btn">Cotice ahora <i class="fa-solid fa-dollar-sign"></i> </a>
-            <a href="#proyectos" class="btn">Ver proyectos<i class="fa-solid fa-eye"></i></a>
+            <a href="#contacto" class="btn">Cotice ahora <i class="fas fa-phone-square"></i></a>
+            <a href="#proyectos" class="btn">Ver proyectos <i class="fas fa-eye"></i> </a>
             </div>
             <div class="imagen">
                 <img class="logo-banner" src="img/jr-logo.png" alt="Logotipo compañia">
@@ -52,7 +54,7 @@
                 <img src="img/espa.jpg" alt="Imagen acerca de">
             </div>
             <div class="texto-item1">
-                <h2>Acerca de nosotros</h2>
+                <h2 id="acerca">Acerca de nosotros</h2>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo a necessitatibus neque possimus perspiciatis repellendus cumque in deserunt quam suscipit quibusdam omnis repudiandae totam dignissimos sed, fugit ut, dolor ex.
                     Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, incidunt?
                 </p>
@@ -62,7 +64,7 @@
         <hr>
         <!--AÑADIENDO LAS TARJETAS DE INFORMACIÓN -TRES COLUMNAS-->
         <div class="information-cards">
-            <h2>Beneficios del estuco</h2>
+            <h2 id="beneficios">Beneficios del estuco</h2>
             <div class="cards">
                 <div class="card-one">                    
                     <i class="fas fa-dumbbell"></i>
@@ -90,7 +92,7 @@
         <hr class="separar">
         <!--POR QUE ELEGIR A STUCCOARTE-->
         <div class="elegir-container">
-            <h2>¿Por qué elegir StuccoArte?</h2>
+            <h2 id="porque">¿Por qué elegir StuccoArte?</h2>
            <div class="elementos-eleccion">
             <div class="imagen">
                 <img src="img/jr-logo.png" alt="Logotipo">
@@ -109,7 +111,7 @@
         <hr>
         <!--QUE SERVICIO OFRECEMOS-->
         <div class="servicios-ofrecidos">
-            <h2>Servicios que ofrecemos</h2>
+            <h2 id="servicios">Servicios que ofrecemos</h2>
             <div class="servicios">
                 <div class="card-one-services">
                     <img src="img/img-serv1.jpeg" alt="Pex1">
@@ -128,7 +130,7 @@
         <!--nuestros proyecto- galeria -->
         <hr>
         <div class="proyectos">
-            <h2>Nuestros proyectos</h2>
+            <h2 id="proyectos"> Nuestros proyectos</h2>
             <div class="proyectos-galeria">
                 <div><img src="img/gale1.jpg" alt="ImagenGaleria"></div>
                 <div>
@@ -160,8 +162,8 @@
         <hr>
         <!--FORMULARIO DE CONTACTO-->
         <div class="formulario-contacto">
-            <h2>Contáctanos</h2>
-            <form class="formulario" action="#">
+            <h2 id="contacto">Contáctanos</h2>
+            <form class="formulario" action="mailto:endermendoza12@gmail.com" method="post" enctype="text/plain">
                 <h3>Nombre</h3>
                 <input type="text" placeholder="Nombre">
                 <h3>Email</h3>
@@ -171,7 +173,75 @@
                 <a href="#" class="btn">Enviar</a>
 
             </form>
-        </div>        
+        </div>   
+       
     </div>
+
+     <!--PIE DE PAGINA -->     
+     <footer class="footer-links">
+        <div class="footer-container">
+            <ul>
+                <li><a href="#"><h2>StuccoArte</h2></a></li>
+                <img src="img/jr-logo.png" alt="Logotipo">
+            </ul>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#acerca">Acerca de</a></li>
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+
+            <ul>
+                <li>
+                    <p>¿Necesitas una cotización</p>
+                </li>
+                <li>
+                    <p>Contactá con nosotros</p>
+                </li>
+                <li>
+                    <p>Teléfono: 83771116</p>
+                </li>
+                <li>
+                    <p>
+                        Noel Mendoza Guadamuz - Propietario
+                    </p>
+                </li>
+                <li>
+                    <p>
+                        Jinotepe, Carazo
+                    </p>
+                </li>
+            </ul>
+
+            <ul>
+               <li>
+                <a class="facebook" href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+               </li>
+                <li>
+                    <a href="#">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+               <li>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+               </li>
+            </ul>
+            
+        </div>
+        <hr>
+        <div class="derech">
+            <h3>Todos los derechos reservados 2021 &copy;</h3>
+        </div>
+    </footer>
+    
+    <!--Scroll reveall-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="scripts/main.js"></script>
 </body>
 </html>
