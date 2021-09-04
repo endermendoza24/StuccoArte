@@ -60,14 +60,11 @@ ul {
     border-bottom: #ffb900 1px solid;
     transition: .7s;
 }
-hr {
-    margin: 10px 0;
-    border-top: 3px double #000;
-}
+
 /*Showcase*/
 .showcase {
     width: 90%;   
-    margin: 0 auto; 
+    margin: 10px auto; 
     height: 400px;
     background-color: #ffb900;
     padding: 50px;
@@ -107,7 +104,8 @@ hr {
     margin: 10px 0;
 }
 .btn:hover{
-    opacity: .9;
+    opacity: .8;
+    transition: .6s;
 }
 
 .contenedor-items{
@@ -261,11 +259,13 @@ hr {
 }
 
 .elegir-container img{
-    width: 80%;
+    width: 95%;
+    border-radius: 5px;
 }
 
 .elementos-eleccion .lista-eleccion ul li{
-    line-height: 7;
+    line-height: 3.7;
+    padding-left: 30px;
     font-size: 20px;
     font-family: 'Arimato', sans-serif;
 }
@@ -282,12 +282,12 @@ hr {
     width: 90%;
     margin: 0 auto;
     display: grid;
-    gap: 1px;
+    gap: 10px;
     grid-template-columns: repeat(2, 1fr) ;
 }
 .servicios-ofrecidos img{
-    width: 80%;
-    border-radius: 8px;
+    width: 98%;    
+    border-radius: 5px;
 }
 
 .servicios h3 {
@@ -326,7 +326,7 @@ hr {
     margin: 0 auto;
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(auto, 1fr);
 }
 /*  FORMULARIO DE CONTACTO */
@@ -431,19 +431,24 @@ hr {
         grid-template-columns: 1fr;
         height: auto;
     }
+    .showcase a{
+        width: 30%;
+    }
+    
     .cards{
         grid-template-columns: 1fr;
     }
 
     .elegir-container{
-        margin-top:550px;
+        margin-top:360px;
     }
 .elegir-container img{
-    width: 50%;
+    width: 70%;
+    margin-left: 30px;
     
 }
     .elementos-eleccion{        
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2. 1fr);
         width: 100%;
         
     }
