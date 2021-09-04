@@ -7,7 +7,10 @@ ScrollReveal().reveal('.showcase');
 // ScrollReveal().reveal('.formulario-contacto', { delay: 200 });
 // ScrollReveal().reveal('.footer-links', { delay: 200 });
 // ScrollReveal().reveal('.lista-eleccion', { delay: 700 });
-
+document.querySelector('.menu-btn').addEventListener('click', () =>
+{
+    document.querySelector('.nav-menu').classList.toggle('show');
+});
 
 window.sr = ScrollReveal();
 
