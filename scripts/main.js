@@ -17,14 +17,14 @@ window.sr = ScrollReveal();
 sr.reveal(".contenedor-items", {
     duration: 4000,
     origin: 'left',
-    distance: '-1000px'
+    distance: '-100px'
 })
 
 sr.reveal(".cards", {
     origin: 'right',
     interval: 400,
     duration: 3000,
-    distance: '-1000px'
+    distance: '-100px'
 })
 
 
@@ -32,21 +32,21 @@ sr.reveal(".elegir-container", {
     origin: 'left',
     interval: 400,
     duration: 3000,
-    distance: '-1000px'
+    distance: '-100px'
 })
 
 sr.reveal(".servicios-ofrecidos", {
     origin: 'right',
     interval: 400,
     duration: 3000,
-    distance: '-1000px'
+    distance: '-100px'
 });
 
 sr.reveal(".proyectos", {
     origin: 'top',
     interval: 900,
     duration: 3000,
-    distance: '-1000px'
+    distance: '-100px'
 });
 
 sr.reveal(".formulario-contacto", {
