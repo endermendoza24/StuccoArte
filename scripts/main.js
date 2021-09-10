@@ -1,3 +1,13 @@
+
+const navToggle = document.querySelector(".menu-btn");
+const navMenu = document.querySelector(".nav-menu");
+
+navToggle.addEventListener("click", () =>{
+    navMenu.classList.toggle("nav-menu-visible");
+})
+
+
+
 ScrollReveal().reveal('.showcase');
 // // ScrollReveal().reveal('.contenedor-items', { delay: 200 });
 // ScrollReveal().reveal('.information-cards', { delay: 200 });
